@@ -12,8 +12,8 @@
         <img [src]="cartItem.food.imageUrl" [alt]="cartItem.food.name">
       </div>
       <div>
-        <a routerLink="/food/{{cartItem.food.id}}">
-          {{cartItem.food.name}}
+        <a routerLink="/food/{{ cartItem.food.id }}">
+          {{ cartItem.food.name }}
         </a>
       </div>
       <div>
@@ -28,7 +28,7 @@
         </select>
       </div>
       <div>
-        {{cartItem.price | currency}}
+        {{ cartItem.price | currency }}
       </div>
 
       <div>
@@ -40,8 +40,8 @@
   </ul>
   <div class="checkout">
     <div>
-      <div class="foods-count">{{cart.totalCount}}</div>
-      <div class="total-price">{{cart.totalPrice|currency}}</div>
+      <div class="foods-count">{{ cart.totalCount }}</div>
+      <div class="total-price">{{ cart.totalPrice|currency }}</div>
     </div>
 
     <a routerLink="/checkout">Proceed to Checkout</a>
