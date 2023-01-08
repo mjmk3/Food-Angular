@@ -2,11 +2,12 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import {RouterLink} from "@angular/router";
 import { AppRoutingModule } from './app-routing.module';
+import {FormsModule} from "@angular/forms";
+import {RouterLink} from "@angular/router";
+import { RatingModule } from 'ng-starrating';
 import { HeaderComponent } from './layout/header/header.component';
 import { HomeComponent } from './layout/home/home.component';
-import { RatingModule } from 'ng-starrating';
 import { CartComponent } from './layout/cart/cart.component';
 import { TitleComponent } from './layout/title/title.component';
 import { NotFoundComponent } from './layout/not-found/not-found.component';
@@ -28,8 +29,9 @@ import { FoodComponent } from './layout/food/food.component';
   ],
   imports: [
     BrowserModule,
-    RouterLink,
     AppRoutingModule,
+    FormsModule,
+    RouterLink,
     RatingModule
   ],
   providers: [],
