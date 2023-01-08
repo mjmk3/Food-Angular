@@ -19,12 +19,12 @@ import { FoodComponent } from './layout/food/food.component';
     AppComponent,
     HeaderComponent,
     HomeComponent,
-    CartComponent,
-    TitleComponent,
-    NotFoundComponent,
     SearchComponent,
     TagsComponent,
-    FoodComponent
+    FoodComponent,
+    CartComponent,
+    TitleComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,

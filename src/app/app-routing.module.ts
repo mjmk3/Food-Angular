@@ -5,11 +5,11 @@ import {FoodComponent} from "./layout/food/food.component";
 import {CartComponent} from "./layout/cart/cart.component";
 
 const routes: Routes = [
-  {path: '', component: HomeComponent},
+  { path: '', component: HomeComponent },
   { path: 'search/:searchTerm', component: HomeComponent },
   { path: 'tag/:tag', component: HomeComponent },
-  {path:'food/:id', component:FoodComponent},
-  {path:'cart', component: CartComponent}
+  { path:'food/:id', component:FoodComponent },
+  { path:'cart', component: CartComponent }
 ];
 
 @NgModule({
