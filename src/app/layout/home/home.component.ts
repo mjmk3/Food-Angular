@@ -1,6 +1,6 @@
 import {Component, OnInit} from '@angular/core';
 import {FoodService} from "../../services/food/food.service";
-import { Foods } from "../../share/model/food";
+import { Food } from "../../share/model/Food";
 import { StarRatingComponent } from "ng-starrating";
 
 @Component({
@@ -10,7 +10,7 @@ import { StarRatingComponent } from "ng-starrating";
 })
 export class HomeComponent implements OnInit{
 
-  foods:Foods[]= [];
+  foods:Food[]= [];
   constructor(private fs:FoodService) { }
 
   ngOnInit(): void{

@@ -7,12 +7,24 @@ import { AppRoutingModule } from './app-routing.module';
 import { HeaderComponent } from './layout/header/header.component';
 import { HomeComponent } from './layout/home/home.component';
 import { RatingModule } from 'ng-starrating';
+import { CartComponent } from './layout/cart/cart.component';
+import { TitleComponent } from './layout/title/title.component';
+import { NotFoundComponent } from './layout/not-found/not-found.component';
+import { SearchComponent } from './layout/search/search.component';
+import { TagsComponent } from './layout/tags/tags.component';
+import { FoodComponent } from './layout/food/food.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    HomeComponent
+    HomeComponent,
+    CartComponent,
+    TitleComponent,
+    NotFoundComponent,
+    SearchComponent,
+    TagsComponent,
+    FoodComponent
   ],
   imports: [
     BrowserModule,
