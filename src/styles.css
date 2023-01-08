@@ -1,4 +1,4 @@
-@import url('https://fonts-googleapis.com/css?family=Open+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
 
 *{
   box-sizing: border-box;
@@ -6,10 +6,12 @@
 html{
   font-size: 18px;
 }
+html,
+button{
+  font-family: Quicksand, sans-serif;
+}
 body{
   margin: 0;
-  font-family: Quicksand, sans-serif;
-  font-size: 18px;
 }
 a{
   text-decoration: none;
