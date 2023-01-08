@@ -17,3 +17,7 @@ ul li a{
   overflow: hidden;
   color: lightskyblue;
 }
+li a:hover{
+  opacity: 0.9;
+  cursor: pointer;
+}
