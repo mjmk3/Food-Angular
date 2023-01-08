@@ -16,6 +16,11 @@ import { TagsComponent } from './layout/tags/tags.component';
 import { FoodComponent } from './layout/food/food.component';
 import { RegisterComponent } from './access/register/register.component';
 import { LoginComponent } from './access/login/login.component';
+import { CheckoutComponent } from './payment/checkout/checkout.component';
+import { TransferComponent } from './payment/transfer/transfer.component';
+import { RechargeComponent } from './payment/recharge/recharge.component';
+import { WalletComponent } from './payment/wallet/wallet.component';
+import { CardComponent } from './payment/card/card.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +34,12 @@ import { LoginComponent } from './access/login/login.component';
     TitleComponent,
     NotFoundComponent,
     RegisterComponent,
-    LoginComponent
+    LoginComponent,
+    CheckoutComponent,
+    TransferComponent,
+    RechargeComponent,
+    WalletComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,
